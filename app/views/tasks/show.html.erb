@@ -1,0 +1,11 @@
+<p><strong><%= @task.name %></strong><p>
+<p><%= @task.description %></p>
+
+
+<h4>What do you want to do ?</h4>
+<ol>
+<li><%= link_to "Edit task", edit_task_path %></li>
+<li><%= link_to "Back to task list", tasks_path %></li>
+
+</ol>
+
